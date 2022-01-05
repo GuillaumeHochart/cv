@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/crisboarna/react-cv/issues"
   },
-  "homepage": "https://crisboarna.github.io/react-cv",
+  "homepage": ".",
   "license": "MIT",
   "dependencies": {
     "html2canvas": "1.0.0-alpha.10",
