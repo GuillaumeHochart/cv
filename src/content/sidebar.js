@@ -40,11 +40,12 @@ const sidebar = {
         'HTML5',
         'javascript',
       ],
-      déploiement: [
+      solutions: [
         'Ansible',
         'Ansible tower',
         'docker',
-        'jeinkins'
+        'jeinkins',
+        'eclipse memory analyzer'
       ],
       frameworks: [
         'ReactJS',

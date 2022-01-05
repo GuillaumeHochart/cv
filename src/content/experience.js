@@ -23,7 +23,8 @@ const experience = {
         'Réalisation de solution technique autour du moteur de règle drools',
         'Développement backend & frontend : java spring/vaadin',
         'Domaines fonctionnels : Assurances et retails',
-        'Déploiement des différentes applications avec des solutions telles que docker, jeinkins, ansible et tower'
+        'Déploiement des différentes applications avec des solutions telles que docker, jeinkins, ansible et tower',
+        'Monitoring et analyse du garbage collectors des applications java'
       ],
     }
   ],
