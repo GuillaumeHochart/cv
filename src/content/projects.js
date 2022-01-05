@@ -43,7 +43,7 @@ const projects = {
       description: ['Réalisation d\'une solution complète de gestion de parc automobile et des contrats d\'assurances',
         'Création d\'un back-end contenant une API-rest, un processus de mise à jour asynchrone',
         'Réalisation de plusieurs front-end en vaadin',
-        'Déployement de la solution chez le client final via ansible et jeinkins'
+        'Déploiement de la solution chez le client final via ansible et jeinkins'
       ],
     },
     {
@@ -80,7 +80,7 @@ const projects = {
       description: [
         'Migration des règles métier d\'une assurance à partir d\'une infrastructure propriétaire vers un modèle open source.',
         'Utilisation du moteur de règle drools',
-        'Création d\'un prototype d\'application web afin d\'illustrer la bonne exécution des règles métier.'
+        'Création d\'un prototype d\'application web afin d\'illustrer la bonne exécution des règles métiers.'
       ],
     },
     {
