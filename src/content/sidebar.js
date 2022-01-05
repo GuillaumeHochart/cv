@@ -44,7 +44,7 @@ const sidebar = {
         'Ansible',
         'Ansible tower',
         'docker',
-        'jeinkins',
+        'jenkins',
         'eclipse memory analyzer'
       ],
       frameworks: [
