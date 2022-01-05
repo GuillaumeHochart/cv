@@ -18,7 +18,9 @@
     "aprepush": "CI=test npm test",
     "flow": "flow",
     "lint": "eslint . --fix",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
