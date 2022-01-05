@@ -66,6 +66,8 @@ button {
   height: 100%;
   min-height: 800px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 .sidebar-wrapper a {
   color: #fff;
@@ -117,7 +119,7 @@ button {
 }
 
 .sidebar-wrapper .container-block {
-  padding: 70px 25px 70px 25px;
+  padding: 30px 25px 30px 25px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -125,6 +127,13 @@ button {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 15px;
+}
+.sidebar-wrapper .container-block-title-bottom {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 .sidebar-wrapper .degree {
   font-size: 14px;
@@ -181,9 +190,12 @@ button {
 }
 
 .sidebar-wrapper .skills-container {
-  margin-top: 130px;
 }
-
+.sidebar-wrapper .source-container {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
 .sidebar-wrapper.skills-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }

@@ -13,7 +13,6 @@ const renderEducation = function renderEducation(item : Object, i : number) {
       <h4 className="degree">{item.school}</h4>
       <h5 className="meta">{item.degree}</h5>
       <div className="time">{item.date}</div>
-      <div><span className="time">· Courses:</span> {item.courses}</div>
     </div>
   );
 };

@@ -2,100 +2,88 @@
 
 const sidebar = {
   name: {
-    title: 'Full Stack Cloud Developer',
-    name: 'Cristian Boarna',
+    title: 'Développeur Full Stack',
+    name: 'Hochart Guillaume',
   },
   contact: {
-    email: { value: 'cristian.boarna@gmail.com', icon: 'far fa-envelope' },
-    phone: { value: '+40 775 263 532', icon: 'fas fa-phone' },
-    website: { value: 'crisboarna.com', icon: 'fas fa-globe' },
-    linkedin: { value: 'linkedin.com/crisboarna', icon: 'fab fa-linkedin' },
-    github: { value: 'github.com/crisboarna', icon: 'fab fa-github' },
-    npm: { value: 'npmjs.com/~crisboarna', icon: 'fab fa-npm' },
-  },
-  certifications: {
-    title: 'Certifications',
-    list: [
-      { name: 'AWS Certified Solutions Architect', icon: 'fab fa-aws', description: 'Amazon Web Services - 2018' },
-      { name: 'Corda Certified Blockchain Developer', icon: 'fab fa-aws', description: 'R3 Corda - 2019' },
-      { name: 'Cambridge English: Proficiency', icon: 'fab fa-aws', description: 'University of Cambridge - 2010' },
-    ],
+    email: { value: 'guillaume.hochart@gmail.com', icon: 'far fa-envelope' },
+    phone: { value: '06 59 87 38 02', icon: 'fas fa-phone' },
+    linkedin: { value: 'linkedin.com/in/guillaume-hochart-b363a5124/', icon: 'fab fa-linkedin' },
+    github: { value: 'github.com/GuillaumeHochart', icon: 'fab fa-github' }
   },
   education: {
-    title: 'Education',
+    title: 'Etude',
     list: [
       {
-        degree: 'BSc Computer Science w/IE',
-        school: 'University of Manchester',
-        date: '2011-2015',
-        courses: 'Distributed Computing, Computer Networks, Chip Multiprocessors, Cryptography & Network Security, Computer Vision, Advanced Graphics',
+        degree: 'DUT informatique',
+        school: 'IUT A Lille',
+        date: '2015-2017',
       },
+      {
+        degree: 'Niveau Licence 3 - Psychologie cognitive et psycholinguistique',
+        school: 'Université de Lille − sciences humaines et sociales',
+        date: '2015',
+      },
+      {
+        degree: 'Niveau I-II Licence De psychologie - Psychopathologie, Pyschanalyse',
+        school: 'Université catholique de Lille',
+        date: '2013-2015',
+      }
     ],
   },
   skills: {
-    title: 'Skills',
+    title: 'Compétences',
     list: {
       languages: [
-        'NodeJs',
-        'Kotlin',
         'Java',
         'C#',
-        'Python',
         'HTML5',
-        'Scala',
+        'javascript',
       ],
-      clouds: [
-        'Azure',
-        'AWS',
-        'Google Cloud'
-      ],
-      iaC: [
-        'Terraform',
-        'CloudFormation'
-      ],
-      configuration: [
+      déploiement: [
         'Ansible',
-        'Packer',
-        'Chef'
+        'Ansible tower',
+        'docker',
+        'jeinkins'
       ],
       frameworks: [
         'ReactJS',
-        'Flutter',
-        'ExpressJS',
-        'Spring',
-        'Akka',
-        'OpenCV',
-        'ReactNative',
+        'Spring-boot',
+        'vaadin',
+        'unity',
+        'apache camel'
       ],
-      solutions: [
-        'Docker',
-        'Kubernetes',
-        'ELK',
-        'Electron',
+      BDD: [
         'MongoDB',
+        'Postgresql',
+        'pl/pgSql'
       ],
     },
   },
   languages: {
     title: 'Languages',
-    list: [{ name: 'English', level: 'Native' }, { name: 'Romanian', level: 'Native' }, { name: 'French', level: 'Beginner' }],
+    list: [{ name: 'Anglais', level: 'Lecture' }, { name: 'français', level: 'Natif' }],
   },
   interests: {
-    title: 'Interests',
+    title: 'Centre d\'intérêts',
     list: [
       {
-        name: 'Circuitry',
-        description: 'Design and implement DIY Smart Home. Completed TV Ambilight & room audio via Arduino',
+        name: 'Sport',
+        description: 'Pratique régulière du volley',
       },
       {
-        name: 'Drones',
-        description: 'Building and flying in 1st person view of light drones',
+        name: 'Art',
+        description: 'digital-painting',
       },
       {
-        name: 'Salsa',
-        description: 'Learning Salsa & Tango for gracefulness of the art of dancing',
+        name: 'Autres',
+        description: 'Japanimation',
       }],
   },
+  source: {
+    title: 'Source',
+    link: 'github.com/crisboarna/react-cv'
+  }
 };
 
 export default sidebar;

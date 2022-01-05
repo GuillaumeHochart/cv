@@ -1,8 +1,14 @@
 /* eslint max-len: "off" */
 
 const profile = {
-  title: 'Profile',
-  description: 'Full stack engineer with a keen interest in cloud, distributed computing and back-end development. Experienced in delivering demanding projects in highly competitive areas.',
+  title: 'Sommaire',
+  description: 'Développeur principalement back-end depuis maintenant 5 ans. Captivé par\n' +
+      'l\'apprentissage de nouvelles technologies, je me forme en autodidacte depuis plusieurs\n' +
+      'années en parallèle de mon emploi (React, Unity, Api google etc...). Mon expérience\n' +
+      'dans une startup avec différents projets Agile m\'ont permis de m\'adapter à de nombreux\n' +
+      'besoins ainsi que d\'être polyvalent.\n' +
+      'Du retail, au monde de l\'assurance en passant par l\'éducation, j\'ai pu intervenir dans différents domaines métier dans des\n' +
+      'contextes variées (intégration, déploiement, TMA ...)',
   icon: 'fas fa-user',
 };
 

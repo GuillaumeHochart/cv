@@ -9,6 +9,7 @@ import Languages from './Language';
 import Interests from './Interests';
 import Certifications from './Certifications';
 import Skills from './Skills';
+import Source from './Source';
 
 type Props = {
   name ?: Object,
@@ -17,7 +18,8 @@ type Props = {
   languages ?: Object,
   interests ?: Object,
   certifications ?: Object,
-  skills ?: Object
+  skills ?: Object,
+  source ?: Object
 }
 
 const componentMap = {
@@ -28,13 +30,14 @@ const componentMap = {
   interests: Interests,
   certifications: Certifications,
   skills: Skills,
+  source: Source
 };
 
 const renderSidebarCategory = function renderSidebarCategory(key : string, value : any) {
   if (key !== 'children') {
     const Component = componentMap[key];
     return (
-      <div key={key}><Component {...value} /></div>
+      <div style={{ height: '100%' }} key={key}><Component {...value} /></div>
     );
   }
   return null;
@@ -56,4 +59,5 @@ Sidebar.propTypes = {
   interests: PropTypes.shape,
   certifications: PropTypes.shape,
   skills: PropTypes.shape,
+  source: PropTypes.shape
 };
