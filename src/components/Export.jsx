@@ -30,7 +30,7 @@ const printPDF = function printPDF(hideLinks, showLinks) {
         doc.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
         heightLeft -= pageHeight;
       }
-      doc.save('CV Cristian Boarna.pdf');
+      doc.save('CV Hochart Guillaume.pdf');
       showLinks();
     });
 };
