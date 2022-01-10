@@ -6,7 +6,7 @@ const sidebar = {
     name: 'Hochart Guillaume',
   },
   contact: {
-    email: { value: 'guillaume.hochart@gmail.com', icon: 'far fa-envelope' },
+    email: { value: 'guillaume.hochart.pro@gmail.com', icon: 'far fa-envelope' },
     phone: { value: '06 59 87 38 02', icon: 'fas fa-phone' },
     linkedin: { value: 'linkedin.com/in/guillaume-hochart-b363a5124/', icon: 'fab fa-linkedin' },
     github: { value: 'github.com/GuillaumeHochart', icon: 'fab fa-github' }
