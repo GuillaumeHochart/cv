@@ -8,10 +8,12 @@ import Export from './components/Export';
 import store from './store';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <Export>
-      <CV {...Data} />
-    </Export>
-  </Provider>,
+  <React.StrictMode>
+    <Provider store={store}>
+      <Export>
+        <CV {...Data} />
+      </Export>
+    </Provider>
+  </React.StrictMode>,
   global.document.getElementById('root'),
 );
