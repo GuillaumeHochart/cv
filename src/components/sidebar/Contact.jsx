@@ -8,6 +8,7 @@ type Props = {
   email ?: Object,
   phone ?: Object,
   website ?: Object,
+  title ?: Object,
   linkedin ?: Object,
   github ?: Object,
   npm ?: Object,
@@ -53,6 +54,11 @@ const renderContactInfo = function renderContactInfo(key : string, entry : any, 
 
 const Contact = (props : Props) => (
   <div className="contact-container container-block">
+    <h2 className="container-block-title">
+      <i className="fas fa-address-book" />
+      {' '}
+      {props.title}
+    </h2>
     <ul className="list-unstyled contact-list">
       {Object.entries(props).map(([key, entry]) => renderContactInfo(key, entry, props.anchorVisible))}
     </ul>
@@ -74,6 +80,7 @@ Contact.propTypes = {
   website: PropTypes.shape,
   linkedin: PropTypes.shape,
   github: PropTypes.shape,
+  title: PropTypes.shape,
   npm: PropTypes.shape,
   anchorVisible: PropTypes.number,
 };
