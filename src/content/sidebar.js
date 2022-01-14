@@ -26,7 +26,7 @@ const sidebar = {
         date: '2015',
       },
       {
-        degree: 'Niveau I-II Licence De psychologie - Psychopathologie, Pyschanalyse',
+        degree: 'Niveau I-II Licence De psychologie - Psychopathologie, Psychanalyse',
         school: 'Université catholique de Lille',
         date: '2013-2015',
       }
