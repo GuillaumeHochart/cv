@@ -10,11 +10,32 @@ const getKeyUpercase = function getKeyUpercase(string : string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
+function RenderSkillsForce({force}){
+  let list = [];
+
+  for (let i = 0; i < 5; i++) {
+    let value = <><i className="fa fa-circle"/> </>;
+    if(i<force) {
+      value = <><i style={{color:'#2d7788'}} className="fa fa-circle"/> </>
+    }
+    list.push(value)
+  }
+  return<div>{list}</div>
+}
+
 const renderSkills = function renderLanguage(key : string, entry : any) {
+
+
   return (
     <li key={`${key}`}>
-      <span className="lang-desc">{`· ${getKeyUpercase(key)}: `}</span>
-      <span >  {entry.join(', ')}</span>
+      <span style={{fontWeight:"600"}} className="lang-desc">{`· ${getKeyUpercase(key)}: `}</span>
+      <ul style={{color:"rgba(255, 255, 255, 0.6)",listStyleType: "none",marginTop: "15px",marginLeft:"5px",padding:"0px"}}>
+        {entry.map(e=>{
+          return <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}>
+            <li>{e.value}</li>
+            <RenderSkillsForce force={e.force}/>
+          </div>})}
+      </ul>
     </li>
   );
 };
@@ -22,7 +43,7 @@ const renderSkills = function renderLanguage(key : string, entry : any) {
 const Skills = ({ title, list } : Props) => (
   <div className="skills-container container-block">
     <h2 className="container-block-title" key="lang_header">
-      <i className="fas fa-code" />
+      <i className="fa fa-code" />
       {' '}
       {title}
     </h2>

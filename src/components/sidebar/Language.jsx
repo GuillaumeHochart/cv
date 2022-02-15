@@ -19,7 +19,7 @@ const renderLanguage = function renderLanguage(item : Object, i : number) {
 const Language = ({ title, list } : Props) => (
   <div className="languages-container container-block">
     <h2 className="container-block-title" key="lang_header">
-      <i className="far fa-comment" />
+      <i className="fa fa-comment" />
       {' '}
       {title}
     </h2>

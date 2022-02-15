@@ -25,11 +25,11 @@ type Props = {
 const componentMap = {
   name: Name,
   contact: Contact,
-  education: Education,
+  skills: Skills,
   languages: Languages,
+  education: Education,
   interests: Interests,
   certifications: Certifications,
-  skills: Skills,
   source: Source
 };
 

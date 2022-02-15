@@ -10,20 +10,17 @@ const projects = {
     subtitle: 'Projet personnel - v0.1',
     tags: [
       'Spring-boot',
-      'java',
       'postgresql',
       'react native',
-      'javascript',
-      'typescript',
       'keycloak',
-      'SQL representation intervalaire',
+      'representation intervalaire',
     ],
     description: ['Création d\'une application permettant de gérer son arbre généalogique en famille.',
     ],
     tooltip: [
     '<p>La réalisation de ce projet à pour objectif de me familiariser avec des technologies et des contextes pour lesquels je n\'avais pas encore pu travailler jusqu\'à maintenant.\n' +
     'Les enjeux techniques sont les suivants :</p>\n' +
-    '<li><p>Gestion fine des utilisateurs, des politiques et gestion des ressources dans keyloak \n</p></li>' +
+    '<ul><li><p>Gestion fine des utilisateurs, des politiques et gestion des ressources dans keyloak \n</p></li>' +
     '<li><p>Une gestion de l\'arbre généalogique en SLQ via un parcours de graphe (Representation intervalaire)</p></li></ul>\n'
     ]
   },

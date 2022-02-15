@@ -20,7 +20,7 @@ const renderEducation = function renderEducation(item : Object, i : number) {
 const Education = ({ title, list } : Props) => (
   <div className="education-container container-block">
     <h2 className="container-block-title">
-      <i className="fas fa-graduation-cap" />
+      <i className="fa fa-graduation-cap" />
       {' '}
       {title}
     </h2>

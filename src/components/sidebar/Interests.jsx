@@ -19,7 +19,7 @@ const renderInterest = function renderInterest(item : Object) {
 const Interests = ({ title, list } : Props) => (
   <div className="languages-container container-block">
     <h2 className="container-block-title">
-      <i className="fas fa-exclamation" />
+      <i className="fa fa-exclamation" />
       {' '}
       {title}
     </h2>

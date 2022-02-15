@@ -55,7 +55,7 @@ const renderContactInfo = function renderContactInfo(key : string, entry : any, 
 const Contact = (props : Props) => (
   <div className="contact-container container-block">
     <h2 className="container-block-title">
-      <i className="fas fa-address-book" />
+      <i className="fa fa-address-book" />
       {' '}
       {props.title}
     </h2>

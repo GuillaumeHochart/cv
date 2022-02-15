@@ -6,6 +6,7 @@ import CV from './components/CV';
 import Data from './content';
 import Export from './components/Export';
 import store from './store';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

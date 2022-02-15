@@ -19,7 +19,7 @@ const renderCertification = function renderCertification(item : Object) {
 const Certifications = ({ list, title } : Props) => (
   <div className="certification-container container-block">
     <h2 className="container-block-title">
-      <i className="fas fa-book" />
+      <i className="fa fa-book" />
       {' '}
       {title}
     </h2>

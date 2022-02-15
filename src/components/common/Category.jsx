@@ -77,7 +77,7 @@ const renderCategory = function renderCategory(item : Object, i : number, anchor
               placement="right-start"
               style={{ background: '#fff' }}
             >
-              <i style={{ cursor: 'pointer', marginLeft: '10px' }} className="fas fa-question-circle" />
+              <i style={{ cursor: 'pointer', marginLeft: '10px' }} className="fa fa-question-circle" />
             </LightTooltip>
           </div>
           <div className="time">{item.date}</div>

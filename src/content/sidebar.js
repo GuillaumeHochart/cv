@@ -7,10 +7,51 @@ const sidebar = {
   },
   contact: {
     title: 'Contact',
-    email: { value: 'guillaume.hochart.pro@gmail.com', icon: 'far fa-envelope' },
-    phone: { value: '06 59 87 38 02', icon: 'fas fa-phone' },
-    linkedin: { value: 'linkedin.com/in/guillaume-hochart-b363a5124/', icon: 'fab fa-linkedin' },
-    github: { value: 'github.com/GuillaumeHochart', icon: 'fab fa-github' }
+    email: { value: ' guillaume.hochart.pro@gmail.com', icon: 'fa fa-envelope' },
+    phone: { value: ' 06 59 87 38 02', icon: 'fa fa-phone' },
+    linkedin: { value: ' linkedin.com/in/guillaume-hochart-b363a5124/', icon: 'fa fa-linkedin' },
+    github: { value: ' github.com/GuillaumeHochart', icon: 'fa fa-github' }
+  },
+  skills: {
+    title: 'Compétences',
+    list: {
+      languages: [
+        {value: 'Java',force:4},
+        {value: 'C#',force:1},
+        {value: 'HTML5/css',force:3},
+        {value: 'javascript',force:3},
+        {value: 'typescript',force:1.5},
+        {value: 'pl/pgSql',force:2}
+      ],
+      solutions: [
+        {value: 'Ansible',force:1},
+        {value: 'Ansible tower',force:1},
+        {value: 'docker',force:2},
+        {value: 'keycloak',force:2.5},
+        {value: 'jenkins',force:1},
+        {value: 'aws',force:0.5},
+        {value: 'git',force:3},
+        {value: 'eclipse memory analyzer',force:1},
+      ],
+      frameworks: [
+        {value: 'ReactJS',force:3},
+        {value: 'React Native',force:0.5},
+        {value: 'Spring-boot',force:3},
+        {value: 'Spring-security',force:2},
+        {value: 'Spring-batch',force:1},
+        {value: 'Vaadin',force:3},
+        {value: 'Unity',force:1},
+        {value: 'Hibernate/JPA',force:3},
+        {value: 'Apache camel',force:2},
+        {value: 'Apache poi',force:2},
+        {value: 'Ansible',force:1},
+      ],
+      BDD: [
+        {value: 'MongoDB',force:3},
+        {value: 'Postgresql',force:3},
+        {value: 'Elasticsearch',force:1},
+      ],
+    },
   },
   education: {
     title: 'Etude',
@@ -31,46 +72,6 @@ const sidebar = {
         date: '2013-2015',
       }
     ],
-  },
-  skills: {
-    title: 'Compétences',
-    list: {
-      languages: [
-        'Java(4)',
-        'C#(1)',
-        'HTML5/css(3)',
-        'javascript(3)',
-        'typescript(1.5)',
-        'pl/pgSql(2)'
-      ],
-      solutions: [
-        'Ansible(1)',
-        'Ansible tower(1)',
-        'docker(2)',
-        'keycloak(2.5)',
-        'jenkins(1)',
-        'aws(0.5)',
-        'git(3)',
-        'eclipse memory analyzer(1)'
-      ],
-      frameworks: [
-        'ReactJS(3)',
-        'React Native(0.5)',
-        'Spring-boot(3)',
-        'spring-security(2)',
-        'spring-batch(1)',
-        'vaadin(3)',
-        'unity(1)',
-        'hibernate/JPA(3)',
-        'apache camel(3)',
-        'apache poi(3)'
-      ],
-      BDD: [
-        'MongoDB(3)',
-        'Postgresql(3)',
-        'Elasticsearch(1)'
-      ],
-    },
   },
   languages: {
     title: 'Languages',

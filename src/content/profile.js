@@ -9,7 +9,7 @@ const profile = {
       'besoins ainsi que d\'être polyvalent.\n' +
       'Du retail, au monde de l\'assurance en passant par l\'éducation, j\'ai pu intervenir dans différents domaines métiers dans des\n' +
       'contextes variés (intégration, déploiement, TMA ...)',
-  icon: 'fas fa-user',
+  icon: 'fa fa-user',
 };
 
 export default profile;
