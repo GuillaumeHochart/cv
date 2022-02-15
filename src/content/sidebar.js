@@ -36,29 +36,39 @@ const sidebar = {
     title: 'Compétences',
     list: {
       languages: [
-        'Java',
-        'C#',
-        'HTML5',
-        'javascript',
+        'Java(4)',
+        'C#(1)',
+        'HTML5/css(3)',
+        'javascript(3)',
+        'typescript(1.5)',
+        'pl/pgSql(2)'
       ],
       solutions: [
-        'Ansible',
-        'Ansible tower',
-        'docker',
-        'jenkins',
-        'eclipse memory analyzer'
+        'Ansible(1)',
+        'Ansible tower(1)',
+        'docker(2)',
+        'keycloak(2.5)',
+        'jenkins(1)',
+        'aws(0.5)',
+        'git(3)',
+        'eclipse memory analyzer(1)'
       ],
       frameworks: [
-        'ReactJS',
-        'Spring-boot',
-        'vaadin',
-        'unity',
-        'apache camel'
+        'ReactJS(3)',
+        'React Native(0.5)',
+        'Spring-boot(3)',
+        'spring-security(2)',
+        'spring-batch(1)',
+        'vaadin(3)',
+        'unity(1)',
+        'hibernate/JPA(3)',
+        'apache camel(3)',
+        'apache poi(3)'
       ],
       BDD: [
-        'MongoDB',
-        'Postgresql',
-        'pl/pgSql'
+        'MongoDB(3)',
+        'Postgresql(3)',
+        'Elasticsearch(1)'
       ],
     },
   },
