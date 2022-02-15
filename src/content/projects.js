@@ -6,16 +6,39 @@ const projects = {
   description: null,
   list: [
     {
+    title: 'Application mobile - réseau social générationnel',
+    subtitle: 'Projet personnel - v0.1',
+    tags: [
+      'Spring-boot',
+      'java',
+      'postgresql',
+      'react native',
+      'javascript',
+      'typescript',
+      'keycloak',
+      'SQL representation intervalaire',
+    ],
+    description: ['Création d\'une application permettant de gérer son arbre généalogique en famille.',
+    ],
+    tooltip: [
+    '<p>La réalisation de ce projet à pour objectif de me familiariser avec des technologies et des contextes pour lesquels je n\'avais pas encore pu travailler jusqu\'à maintenant.\n' +
+    'Les enjeux techniques sont les suivants :</p>\n' +
+    '<li><p>Gestion fine des utilisateurs, des politiques et gestion des ressources dans keyloak \n</p></li>' +
+    '<li><p>Une gestion de l\'arbre généalogique en SLQ via un parcours de graphe (Representation intervalaire)</p></li></ul>\n'
+    ]
+  },
+    {
       title: 'Application web e-market/Lecture de manga',
-      subtitle: 'Projet personnel - En développement',
+      subtitle: 'Projet personnel - v0.9',
       tags: [
         'Spring-boot',
         'java',
         'mongodb',
-        'react',
+        'react JS',
+        'keycloak',
         'redux-toolkit',
       ],
-      description: ['A la suite d\'une formation en react et redux, réalisation d\'une application de lecture de manga/e-market', 'Réalisation d\'une api rest', 'Utilisation de différents modules react tels que react-redux, react-router ...',
+      description: ['A la suite d\'une formation en react et redux, réalisation d\'une application de lecture de manga/e-market', 'Réalisation d\'une api rest','Intégration d\'un serveur d\'authentification','Utilisation de différents modules react tels que react-redux, react-router ...',
       ],
       tooltip: ['<p>Après avoir suivi une formation sur <b>reactJs et redux</b>, je me suis lancé comme projet de mettre en application ce que j\'avais pu apprendre.\n' +
         'L\'application devra permettre aux créateurs de BD/manga/manhwa amateurs de poster sur le site leurs artworks, ainsi que de leur donner une visibilité vers leurs sites personnels respectifs. Les utilisateurs quant à eux pourront parcourir les différentes œuvres.</p>\n' +
@@ -27,12 +50,13 @@ const projects = {
         '<li><p>Intégration d\'une <b>api gateway</b> afin de sécuriser les API, produire des métriques. <b>spring cloud gateway</b>\n</p></li>' +
         '<li><p>Déploiement sur une infrastructure cloud\n</p></li>' +
         '<li><p>Intégration transversal de moyen de connexion avec facebook, twitter etc...\n</p></li>' +
-        '<li><p>Travail sur la cohésion du site web afin de conserver l\'équilibre entre fluidité et affichage/animation des images</p></li></ul>\n'
+        '<li><p>Intégration d\'un serveur d\'authentification \n</p></li>' +
+      '<li><p>Travail sur la cohésion du site web afin de conserver l\'équilibre entre fluidité et affichage/animation des images</p></li></ul>\n'
       ]
     },
     {
       title: 'Jeux vidéo web/mobile',
-      subtitle: 'Projet personnel - En développement',
+      subtitle: 'Projet personnel - v0.2',
       tags: ['unity',
       ],
       description: ['Développement d\'un jeux vidéo multijoueur en 2D mélangeant build-map et jeux de combat de plateforme',
