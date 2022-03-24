@@ -34,7 +34,7 @@ const sidebar = {
         {value: 'restfull API',force:3},
         {value: 'soap API',force:2},
         {value: 'graphql API',force:1},
-        {value: 'server send event',force:1},
+        {value: 'server sent event',force:1},
         {value: 'eclipse memory analyzer',force:1},
       ],
       frameworks: [
