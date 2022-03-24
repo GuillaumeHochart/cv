@@ -9,7 +9,8 @@ const projects = {
     title: 'Application mobile - réseau social générationnel',
     subtitle: 'Projet personnel - v0.1',
     tags: [
-      'Spring-boot',
+      'node-js',
+      'graphql',
       'postgresql',
       'react native',
       'keycloak',
